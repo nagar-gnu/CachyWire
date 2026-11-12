@@ -1,0 +1,25 @@
+{
+  "name": "cachywire",
+  "version": "0.1.0-alpha",
+  "description": "CachyWire 0.1.0-alpha Network Monitor & Personal Firewall for Linux / CachyOS",
+  "type": "module",
+  "scripts": {
+    "start": "bash ./run-cachywire.sh",
+    "daemon": "bash ./run-cachywire.sh --daemon-only",
+    "test": "node tests/run-all-tests.js"
+  },
+  "keywords": [
+    "cachywire",
+    "network-monitor",
+    "firewall",
+    "traffic-graph",
+    "cachyos",
+    "linux",
+    "cyber-security"
+  ],
+  "author": "CachyWire Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,19 @@
+# AUDIT DESK-01: invalid shebang line removed; dead --mini action removed.
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CachyWire Network Monitor
+GenericName=Network Traffic Monitor & Firewall
+Comment=Visual network monitor, personal firewall, and security threat detector
+Exec=/usr/bin/cachywire
+Icon=cachywire
+Terminal=false
+Categories=Network;Security;Monitor;System;
+StartupNotify=true
+StartupWMClass=cachywire
+Keywords=network;firewall;bandwidth;traffic;security;cachywire;cachyos;
+Actions=DaemonOnly;
+
+[Desktop Action DaemonOnly]
+Exec=/usr/bin/cachywire --daemon-only
+Name=Start Background Telemetry Service Only

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Vibrant Modern Electric Teal to Ocean Blue Squircle Gradient -->
+    <linearGradient id="bgSquircle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4"/>
+      <stop offset="45%" stop-color="#00BBF9"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <!-- Top Glassmorphic Highlight -->
+    <linearGradient id="glassShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Warm Amber-Gold Secondary Wave Gradient -->
+    <linearGradient id="amberWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE66D"/>
+      <stop offset="50%" stop-color="#FF9F1C"/>
+      <stop offset="100%" stop-color="#FF595E"/>
+    </linearGradient>
+
+    <!-- Inner Shield Dark Contrast Plate -->
+    <linearGradient id="shieldCore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B192C" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#07101E" stop-opacity="0.94"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Drop Shadow -->
+  <rect x="28" y="36" width="456" height="456" rx="112" fill="#000000" opacity="0.28"/>
+
+  <!-- Main Vibrant Squircle Base -->
+  <rect x="28" y="24" width="456" height="456" rx="112" fill="url(#bgSquircle)"/>
+
+  <!-- Top Glossy Rim Highlight -->
+  <path d="M 140 28 L 372 28 C 432 28 480 76 480 136 L 480 210 C 370 250 142 250 32 210 L 32 136 C 32 76 80 28 140 28 Z" fill="url(#glassShine)"/>
+
+  <!-- Crisp White Outer Squircle Border -->
+  <rect x="32" y="28" width="448" height="448" rx="108" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="6"/>
+
+  <!-- Central Cyber Shield Emblem -->
+  <path d="M 256 76 L 414 134 L 414 252 C 414 352 344 416 256 446 C 168 416 98 352 98 252 L 98 134 Z" fill="url(#shieldCore)" stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Glowing Turquoise Area Under Wave -->
+  <path d="M 118 282 L 168 282 L 204 212 L 252 344 L 304 166 L 346 278 L 394 278 L 394 345 C 355 390 306 418 256 435 C 206 418 157 390 118 345 Z" fill="#00F5D4" opacity="0.24"/>
+
+  <!-- Secondary Warm Amber-Gold Outbound Wave -->
+  <path d="M 122 308 Q 168 242, 212 304 T 308 264 T 390 296" fill="none" stroke="url(#amberWave)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Primary Ultra-Bright White & Cyan Pulse Wave -->
+  <path d="M 116 274 L 166 274 L 204 196 L 252 338 L 304 152 L 348 268 L 396 268" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 116 274 L 166 274 L 204 196 L 252 338 L 304 152 L 348 268 L 396 268" fill="none" stroke="#00F5D4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Luminous Peak Node Dots -->
+  <circle cx="304" cy="152" r="16" fill="#FFFFFF"/>
+  <circle cx="304" cy="152" r="9" fill="#00F5D4"/>
+  <circle cx="204" cy="196" r="13" fill="#FFE66D"/>
+</svg>
